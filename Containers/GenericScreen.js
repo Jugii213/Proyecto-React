@@ -13,8 +13,11 @@ import styles from "./Styles/GenericScreenStyles";
 
 import NavBar from "../Components/NavBar";
 
-export default class App extends Component<Props> {
+export default class GenericScreen extends Component<Props> {
 
+  static navigationOptions = {
+    title: "Home"
+  };
   constructor(props){
     super(props);
 
