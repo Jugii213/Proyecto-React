@@ -35,7 +35,7 @@ export default class ExploreScreen extends Component<Props> {
       <NavBar leftButton={false} title="Explore" rightButton={false}/>
       <RecipeRow />
     {/*El contenido va aqui*/}
-    <View style={styles.container}></View
+    <View style={styles.container}></View>
     </View>
 
     );
