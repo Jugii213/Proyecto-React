@@ -11,10 +11,11 @@ import {Text, StyleSheet, View} from 'react-native';
 
 import styles from "./Styles/GenericScreenStyles";
 
+
 import NavBar from "../Components/NavBar";
 
 import RecipeRow from "../Components/RecipeRow";
-export default class ExploreScreen extends Component<Props> {
+export default class ExploreScreen extends Component {
 
   static navigationOptions = {
     title: "Explore"
@@ -31,10 +32,9 @@ export default class ExploreScreen extends Component<Props> {
     console.log("render");
 
     return (
-      <View>
+      <View style={styles.mainScreen}>
       <NavBar leftButton={false} title="Explore" rightButton={false}/>
       <RecipeRow />
-    {/*El contenido va aqui*/}
     <View style={styles.container}></View>
     </View>
 
