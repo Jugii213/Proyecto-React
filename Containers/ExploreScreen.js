@@ -13,7 +13,7 @@ import styles from "./Styles/GenericScreenStyles";
 
 
 import NavBar from "../Components/NavBar";
-
+import TabBar from "../Components/TabBar";
 import RecipeRow from "../Components/RecipeRow";
 const recipeDate= {
   "id": "52944",
@@ -107,6 +107,7 @@ export default class ExploreScreen extends Component {
       <NavBar leftButton={false} title="Explore" rightButton={false}/>
 
     <View style={styles.container}>{this.renderList()}</View>
+    <TabBar selected="explore" />
     </View>
 
 

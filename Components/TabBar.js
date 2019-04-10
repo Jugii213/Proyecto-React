@@ -29,7 +29,7 @@ class TabBar extends Rect.Component {
         {this.renderTab({ route: "favorites", icon: "favorites" })}
       </View>
     );
-  }
+  };
 }
 
 
