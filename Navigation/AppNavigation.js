@@ -10,7 +10,8 @@ const TabNav = createBottomTabNavigator({
     Favorites: { screen: GenericScreen },
 },{
     headerMode: "none",
-    initialRoutName: "Explore"
+    initialRoutName: "Explore",
+    navigationOptions: { tabBarVisible:false }
 })
 const AppNavigator = createStackNavigator(
   {
