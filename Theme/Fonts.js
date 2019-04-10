@@ -2,7 +2,7 @@ import colors from "./Colors";
 
 const family = {
   base: "Montserrat",
-  bold: "ProximaNova.Bold"
+  bold: "ProximaNova-Bold"
 };
 const size = {
   big: 36,

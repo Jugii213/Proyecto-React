@@ -6,6 +6,7 @@ const colors = {
   orangeyRed: "#ff6322",
   black: "#333333",
   brownGrey: "#9e9e9e",
+  mediumGrey: "#9e9e9e",
   veryLightPink: "#bdbdbd",
   veryLightPink: "#e0e0e0",
   iceBlue: "#f4f6f6",
